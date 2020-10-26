@@ -73,8 +73,11 @@ int b64_encode(void *p, int length, char *buf) {
     }
 }
 
-/*
 int b64_decode(char *buf, int length, void *p) {
+    /*TODO*/
+    return 0;
+    
+    /*
     char a, b, c, d;
     int index = 0;
     
@@ -84,8 +87,8 @@ int b64_decode(char *buf, int length, void *p) {
         c = *(buf + i + 2);
         d = *(buf + i + 3);
     }
+    */
 }
-*/
 
 int main() {
     BYTE s[] = {0xFF, 0x00, 0xFF, 0x00, 0xAF, 0x70, 0xCC, 0x03};
